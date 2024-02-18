@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+
+header{
+    background-color: #001606;
+    height: 1000px;
+    
+}
+
+.container {
+    max-width: 1980px;
+    padding: 25px;
+}
+
+
+    
+nav {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .pf h1 {
+    margin-left: 20px;
+    font-size: 36px;
+    color:#00ff44;
+    
+
+}
+nav ul li{
+    margin-right: 80px;
+    width: 80px;
+}
+nav ul li a{
+    color: #00ff44 ;
+    text-decoration: none;
+    font-size: 24px;
+}
+ .content li a{
+    background-color: #ffffff;
+   border-radius: 25px;
+   padding: 10px;
+   align-items: center;
+}
+
+.nk {
+    margin-top: 150px;
+    height: 500px;
+    width: 630px;
+    padding-left: 60px; 
+    margin-left: 60px;
+  
+}
+.iamkhing h1{
+    font-size: 100px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.favorite h2{
+    color: #00b931;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+}
+
+.nk-p {color: #00ff44;
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;}
+
+.nk-img {
+    margin-top: 120px; 
+    height: 700px;   
+    padding-right: 10%;
+}
+
+.nk-img img{
+    width: 100%;
+    height: 100%; 
+    border-radius: 25px;
+}
+
+.nk-info {
+ display: flex;
+ justify-content: space-between;
+ padding: 0;
+ margin: 0;
+}
+
+.line {
+    width: 20px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.linekhing {
+    width: 130px;
+    height: 20px;
+    background-color: #00ff44;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.hello{
+    color: #00ff44;
+    align-items: center;
+    font-size: 28px;
+    margin-left: 10px;
+    
+    
+}
+.headkhing {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+}
+
+section {
+    background-color: #001606;
+    height: 1000px;
+}
+.bg {
+    background-color: black;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    width: 1770px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.writer h1{
+    color: #ffffff;  
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.writer p {
+    font-size: 24px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
